@@ -1,0 +1,62 @@
+------------------------------------------------------------------------------
+  nloptwrap                                                             NEWS
+------------------------------------------------------------------------------
+
+
+CHANGES IN VERSION 0.5-1 (2013-05-09)
+
+    o Updated to NLOPT 2.3 and nloptr 0.9.1
+    o Added stochastic global optimization routine stogo().
+
+CHANGES IN VERSION 0.4-5 (2013-02-13)
+
+    o Pass additional function parameters to the gradient.
+
+CHANGES IN VERSION 0.4-4 (2013-02-06)
+
+    o Improvements such as 'population', 'randseed', etc.
+
+CHANGES IN VERSION 0.4-3 (2013-02-05)
+
+    o crs2lm() controlled random search with local mutation.
+    o isres() improved stochastic ranking evolution strategy.
+
+CHANGES IN VERSION 0.4-1 (2013-02-04)
+
+    o mlsl() with gradient-based variant.
+    o Introduced local options to nl.opts().
+
+CHANGES IN VERSION 0.3-3 (2013-02-03)
+
+    o mma() method of moving asymptotes.
+    o varmetric() shifted limited-memory variable-metric.
+
+CHANGES IN VERSION 0.3-1 (2013-02-02)
+
+    o Converted to optim-like return values.
+    o Added `noscaling' and `randomized' variants to direct() and directL().
+
+CHANGES IN VERSION 0.2-6 (2013-02-01)
+
+    o lbfgs() low-storage BFGS algorithm (with box constraints).
+    o tnewton() preconditioned truncated Newton and variants.
+
+CHANGES IN VERSION 0.2-4 (2013-01-31)
+
+    o neldermead() Nelder-Mead simplex routine.
+    o sbplx() Rowan's `subplex' algorithm, a N-M variant.
+
+CHANGES IN VERSION 0.2-1 (2013-01-30)
+
+    o direct(), directL() DIviding RECTangles algorithm.
+    o option controls simplified.
+
+CHANGES IN VERSION 0.1-5 (2013-01-29)
+
+    o slsqp() sequential (least-squares) quadratic programming.
+    o cobyla(), bobyqa(), newuoa() Powell's approximation solvers.
+
+CHANGES IN VERSION 0.1-1 (2013-01-28)
+
+    o nl.grad() and nl.jacobian() numerical gradients and jacobians
+    o nl.options() for installing NLOPT options and allowing user changes.
