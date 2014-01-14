@@ -2,6 +2,10 @@
 ### NAMESPACE
 ###
 
+## Depending on packages
+# importFrom(nloptr, nloptr.default.options)
+import(nloptr)
+
 ## Public routines
 export(nl.grad, nl.jacobian)
 export(nl.opts)
@@ -15,5 +19,6 @@ export(varmetric)
 export(mlsl)
 export(crs2lm, isres)
 export(stogo)
+export(auglag)
 
 ## S3 and S4 Methods
